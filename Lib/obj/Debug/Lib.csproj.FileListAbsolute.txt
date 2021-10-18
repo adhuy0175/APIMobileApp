@@ -1,0 +1,33 @@
+C:\Users\toannguyen\source\repos\DemoAPI\Lib\obj\Debug\Lib.csprojAssemblyReference.cache
+C:\Users\toannguyen\source\repos\DemoAPI\Lib\obj\Debug\Lib.csproj.CoreCompileInputs.cache
+C:\Users\toannguyen\source\repos\DemoAPI\Lib\bin\Debug\Lib.dll
+C:\Users\toannguyen\source\repos\DemoAPI\Lib\bin\Debug\Lib.pdb
+C:\Users\toannguyen\source\repos\DemoAPI\Lib\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\toannguyen\source\repos\DemoAPI\Lib\bin\Debug\EntityFramework.dll
+C:\Users\toannguyen\source\repos\DemoAPI\Lib\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\toannguyen\source\repos\DemoAPI\Lib\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\toannguyen\source\repos\DemoAPI\Lib\obj\Debug\Lib.csproj.CopyComplete
+C:\Users\toannguyen\source\repos\DemoAPI\Lib\obj\Debug\Lib.dll
+C:\Users\toannguyen\source\repos\DemoAPI\Lib\obj\Debug\Lib.pdb
+C:\Users\toannguyen\Downloads\co tuong\DemoAPI\Lib\bin\Debug\Lib.dll
+C:\Users\toannguyen\Downloads\co tuong\DemoAPI\Lib\bin\Debug\Lib.pdb
+C:\Users\toannguyen\Downloads\co tuong\DemoAPI\Lib\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\toannguyen\Downloads\co tuong\DemoAPI\Lib\bin\Debug\EntityFramework.dll
+C:\Users\toannguyen\Downloads\co tuong\DemoAPI\Lib\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\toannguyen\Downloads\co tuong\DemoAPI\Lib\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\toannguyen\Downloads\co tuong\DemoAPI\Lib\obj\Debug\Lib.csprojAssemblyReference.cache
+C:\Users\toannguyen\Downloads\co tuong\DemoAPI\Lib\obj\Debug\Lib.csproj.CoreCompileInputs.cache
+C:\Users\toannguyen\Downloads\co tuong\DemoAPI\Lib\obj\Debug\Lib.csproj.CopyComplete
+C:\Users\toannguyen\Downloads\co tuong\DemoAPI\Lib\obj\Debug\Lib.dll
+C:\Users\toannguyen\Downloads\co tuong\DemoAPI\Lib\obj\Debug\Lib.pdb
+C:\Users\huytr\OneDrive\Documents\Visual Studio 2019\DemoAPI\Lib\bin\Debug\Lib.dll
+C:\Users\huytr\OneDrive\Documents\Visual Studio 2019\DemoAPI\Lib\bin\Debug\Lib.pdb
+C:\Users\huytr\OneDrive\Documents\Visual Studio 2019\DemoAPI\Lib\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\huytr\OneDrive\Documents\Visual Studio 2019\DemoAPI\Lib\bin\Debug\EntityFramework.dll
+C:\Users\huytr\OneDrive\Documents\Visual Studio 2019\DemoAPI\Lib\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\huytr\OneDrive\Documents\Visual Studio 2019\DemoAPI\Lib\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\huytr\OneDrive\Documents\Visual Studio 2019\DemoAPI\Lib\obj\Debug\Lib.csproj.CoreCompileInputs.cache
+C:\Users\huytr\OneDrive\Documents\Visual Studio 2019\DemoAPI\Lib\obj\Debug\Lib.csproj.CopyComplete
+C:\Users\huytr\OneDrive\Documents\Visual Studio 2019\DemoAPI\Lib\obj\Debug\Lib.dll
+C:\Users\huytr\OneDrive\Documents\Visual Studio 2019\DemoAPI\Lib\obj\Debug\Lib.pdb
+C:\Users\huytr\OneDrive\Documents\Visual Studio 2019\DemoAPI\Lib\obj\Debug\Lib.csprojAssemblyReference.cache
