@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace Lib.Entities
 {
     [Table("CHUDE")]
-    class ChuDe
+    public class ChuDe
     {
         [Key]
         public int IdChuDe { get; set; }

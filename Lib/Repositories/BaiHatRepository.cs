@@ -1,4 +1,5 @@
-﻿using Lib.Data;
+﻿
+using Lib.Data;
 using Lib.Entities;
 using System;
 using System.Collections.Generic;
@@ -17,7 +18,7 @@ namespace Lib.Repositories
         public BaiHatRepository(DbContextFactory factory)
             : base(factory)
         {
-            
+
         }
         public List<BaiHat> GetBaiHat()
         {

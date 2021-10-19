@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace Lib.Entities
 {
     [Table("PLAYLIST")]
-    class PlayList
+    public class PlayList
     {
         
         [Key]

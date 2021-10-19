@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Lib.Entities
 {   [Table("ALBUM")]
-    class Album
+    public class Album
     {
         [Key]
         public int IdAlbum { get; set; }

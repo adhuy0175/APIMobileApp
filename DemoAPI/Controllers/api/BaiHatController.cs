@@ -44,18 +44,18 @@ namespace DemoAPI.Controllers.api
                 data = baiHats
             }, JsonRequestBehavior.AllowGet); ;
         }
-        [HttpGet]
-        [Route("api/BaiHat/getBaiHat")]
-        public ActionResult getQuangCao()
-        {
+        //[HttpGet]
+        //[Route("api/BaiHat/getBaiHat")]
+        //public ActionResult getQuangCao()
+        //{
 
-            List<BaiHat> baiHats = baiHatService.GetBaiHats();
-            return
-            Json(new
-            {
-                message = "sucess",
-                data = baiHats
-            }, JsonRequestBehavior.AllowGet); ;
-        }
+        //    List<BaiHat> baiHats = baiHatService.GetBaiHats();
+        //    return
+        //    Json(new
+        //    {
+        //        message = "sucess",
+        //        data = baiHats
+        //    }, JsonRequestBehavior.AllowGet); ;
+        //}
     }
 }

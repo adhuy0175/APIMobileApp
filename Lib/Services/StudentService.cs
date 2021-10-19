@@ -23,10 +23,12 @@ namespace Lib.Services
         {
             unitOfWork.Commit();
         }
-        public List<Student> GetStudents() {
+        public List<Student> GetStudents()
+        {
             return studentRepository.GetStudents();
         }
-        public bool addStudent(Student st) {
+        public bool addStudent(Student st)
+        {
             using (var trans = unitOfWork.BeginTransaction())
             {
                 try
@@ -39,9 +41,9 @@ namespace Lib.Services
                     trans.Rollback();
                     return false;
                 }
-                
+
             }
-            
+
             return true;
         }
     }

@@ -15,7 +15,7 @@ namespace Lib.Entities
         public int IdBaiHat { get; set; }
         public string TenBaiHat { get; set; }
 
-        public  string LoiBaiHat { get; set; }
+        public string LoiBaiHat { get; set; }
         public string TenCaSi { get; set; }
         public string HinhNenBaiHat { get; set; }
         public string LinkBaiHat { get; set; }
