@@ -1,4 +1,5 @@
-﻿using Lib.Data;
+﻿using Lib.Models;
+using Lib.Data;
 using Lib.Entities;
 using Lib.Repositories;
 using System;
@@ -13,25 +14,41 @@ namespace Lib.Services
     {
         private IUnitOfWork unitOfWork;
         private QuangCaoRepository quangCaoRepository;
+        private ApplicationDbContext dataContext;
         public QuangCaoService()
         {
             var dbContextFactory = new DbContextFactory();
             unitOfWork = new UnitOfWork(dbContextFactory);
             quangCaoRepository = new QuangCaoRepository(dbContextFactory);
+            dataContext = new ApplicationDbContext();
 
         }
         public void Save()
         {
             unitOfWork.Commit();
         }
-        public void insertBaiHat(QuangCao quangCao)
+        public void insertQuangCao(QuangCao quangCao)
         {
-            quangCaoRepository.Add(quangCao);
-            Save();
+            dataContext.QuangCao.Add(quangCao);
+            dataContext.SaveChanges();
         }
-        public List<QuangCao> GetQuangCao()
+        public IEnumerable<QuangCaoModel> GetQuangCao()
         {
-            return quangCaoRepository.GetQuangCao();
+            var query = from qc in dataContext.QuangCao
+                        join bh in dataContext.BaiHat
+                        on qc.IdBaiHat equals bh.IdBaiHat
+                        select new QuangCaoModel()
+                        {
+                            IdQC = qc.IdQC,
+                            HinhAnhrQC = qc.HinhAnhQC,
+                            NoiDungQC = qc.NoiDungQC,
+                            IdBaiHat = qc.IdBaiHat,
+                            TenBaiHat = bh.TenBaiHat,
+                            HinhNenBaiHat = bh.HinhNenBaiHat
+
+                        };
+            // dataContext.QuangCao.AsQueryable();
+            return query;
         }
     }
 }

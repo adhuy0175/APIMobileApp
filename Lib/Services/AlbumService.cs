@@ -23,14 +23,14 @@ namespace Lib.Services
         {
             unitOfWork.Commit();
         }
-        public void insertBaiHat(Album album)
+        public void insertAlbum(Album album)
         {
             albumRepository.Add(album);
             Save();
         }
-        public List<Album> GetBaiHats()
+        public List<Album> GetAlbums()
         {
-            return albumRepository.GetBaiHat();
+            return albumRepository.GetAlbum();
         }
     }
 }

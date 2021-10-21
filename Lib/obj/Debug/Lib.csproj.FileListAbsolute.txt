@@ -30,4 +30,3 @@ C:\Users\huytr\OneDrive\Documents\Visual Studio 2019\DemoAPI\Lib\obj\Debug\Lib.c
 C:\Users\huytr\OneDrive\Documents\Visual Studio 2019\DemoAPI\Lib\obj\Debug\Lib.csproj.CopyComplete
 C:\Users\huytr\OneDrive\Documents\Visual Studio 2019\DemoAPI\Lib\obj\Debug\Lib.dll
 C:\Users\huytr\OneDrive\Documents\Visual Studio 2019\DemoAPI\Lib\obj\Debug\Lib.pdb
-C:\Users\huytr\OneDrive\Documents\Visual Studio 2019\DemoAPI\Lib\obj\Debug\Lib.csprojAssemblyReference.cache

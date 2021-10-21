@@ -1,4 +1,5 @@
-﻿using Lib.Data;
+﻿
+using Lib.Data;
 using Lib.Entities;
 using System;
 using System.Collections.Generic;
@@ -8,21 +9,16 @@ using System.Threading.Tasks;
 
 namespace Lib.Repositories
 {
-    public interface IQuangCaoRepository : IRepository<QuangCao>
+    public interface IQuangCaoRepository 
     {
-        List<QuangCao> GetQuangCao();
+        IEnumerable<QuangCao> GetQuangCao();
     }
-    public class QuangCaoRepository : RepositoryBase<QuangCao>, IQuangCaoRepository
+    public class QuangCaoRepository : RepositoryBase<QuangCao>
     {
         public QuangCaoRepository(DbContextFactory factory)
             : base(factory)
         {
 
-        }
-        public List<QuangCao> GetQuangCao()
-        {
-            var query = dataContext.QuangCao.AsQueryable();
-            return query.ToList();
         }
     }
 }

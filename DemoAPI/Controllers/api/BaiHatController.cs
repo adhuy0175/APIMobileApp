@@ -1,4 +1,4 @@
-﻿using DemoAPI.Models;
+﻿using Lib.Models;
 using Lib.Entities;
 using Lib.Services;
 using System;
@@ -10,10 +10,11 @@ namespace DemoAPI.Controllers.api
 {
     public class BaiHatController : Controller
     {
+        QuangCaoService quangCaoService = new QuangCaoService();
         BaiHatService baiHatService = new BaiHatService();
         [HttpPost]
         [Route("api/BaiHat/insertBaiHat")]
-        public ActionResult insertBaiHat(BaiHatModel baiHat)
+        public ActionResult insertBaiHat(BaiHat baiHat)
         {
             BaiHat r = new BaiHat();
             r.LoiBaiHat = baiHat.LoiBaiHat;
@@ -42,6 +43,19 @@ namespace DemoAPI.Controllers.api
             {
                 message = "sucess",
                 data = baiHats
+            }, JsonRequestBehavior.AllowGet); ;
+        }
+        [HttpGet]
+        [Route("api/QuangCao/getQuangCao")]
+        public ActionResult getQuangCao()
+        {
+
+            IEnumerable<QuangCaoModel> quangCaos = quangCaoService.GetQuangCao();
+            return
+            Json(new
+            {
+                message = "sucess",
+                data = quangCaos
             }, JsonRequestBehavior.AllowGet); ;
         }
         //[HttpGet]
